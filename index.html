@@ -29,7 +29,17 @@
             min-height: 100vh;
         }
 
-        .maindiv, .introdiv {
+        .maindiv    {
+            background-color: white;
+            border-radius: 15px;
+            color: #BE90D4;
+            width: 1000px;
+            margin-bottom: 20px;
+            padding: 20px;
+            text-align: center;            
+        }
+        
+            .introdiv    {
             background-color: white;
             border-radius: 15px;
             color: #BE90D4;
@@ -37,8 +47,13 @@
             margin-bottom: 20px;
             padding: 20px;
             text-align: center;
-            animation: introdivanimation 2s ease-in forwards;
+            animation: 1s ease-in forwards;
             
+        }
+
+        .h1main, .h2Intro   {
+            animation: 3s ease-in forwards;
+
         }
 
         @keyframes introdivanimation {
@@ -56,10 +71,10 @@
     <main>
         <h1>Aerin's Website!</h1>
         <div class="maindiv">
-            <h1 style="color: #98CF97;"> Insert image of me here.</h1>
+            <h1 class="h1main" style="color: #98CF97;"> Insert image of me here.</h1>
         </div>
         <div class="introdiv">
-            <p>Hi! My name's Aerin. Nice to meet you!</p>
+            <h2 class="h2Intro">Hi! My name's Aerin :) Nice to meet you.</h2>
         </div>
     </main>
 </body>
