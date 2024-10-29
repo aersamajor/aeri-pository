@@ -18,41 +18,38 @@
             background-size: cover, 300px;
             color: #ffffff;
             text-align: center;
+            margin: 0;
         }
-        .maindiv    {
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .maindiv, .introdiv {
             background-color: white;
             border-radius: 15px;
             color: #BE90D4;
             width: 1000px;
-            margin-left: auto;
-            margin-right: auto;
             margin-bottom: 20px;
+            padding: 20px;
             text-align: center;
-            padding: 70px 0;
         }
 
-        .introdiv    {
-            background-color: white;
-            border-radius: 15px;
-            color: #BE90D4;
-            width: 1000px;
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            animation: maindivanimation 1s ease-in forwards;
-            text-align: center;
-            padding: 20px 0;
-        }
-
-        .h1    {
+        .h1 {
             animation: h1animation 3s ease-in forwards;
         }
 
-           @keyframes introdivanimation {
+        @keyframes introdivanimation {
             from {
-                opacity: 0%;    }
+                opacity: 0%;
+            }
             to {
-                opactiy: 100%;    }
+                opacity: 100%;
+            }
         }
     </style>
 </head>
@@ -61,18 +58,11 @@
     <main>
         <h1>Aerin's Website!</h1>
         <div class="maindiv">
-            
             <h1 style="color: #98CF97;"> Insert image of me here.</h1>
-            
         </div>
-
         <div class="introdiv">
-            
             <p>Hi! My name's Aerin. Nice to meet you!</p>
-
         </div>
-    
-
     </main>
 </body>
 </html>
