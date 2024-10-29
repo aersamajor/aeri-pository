@@ -29,7 +29,7 @@
             min-height: 100vh;
         }
 
-        .maindiv, .introdiv    {
+        .maindiv {
             background-color: white;
             border-radius: 15px;
             color: #BE90D4;
@@ -37,15 +37,29 @@
             margin-bottom: 20px;
             padding: 20px;
             text-align: center;
-            animation: introdivanimation 1s ease-in forwards;   
         }
 
-        @keyframes introdivanimation {
+        .introdiv {
+            background-color: white;
+            border-radius: 15px;
+            color: #BE90D4;
+            width: 1000px;
+            margin-top: 20px;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1s ease-in forwards;
+        }
+
+        .h1, .h2 {
+            animation: h1animation 3s ease-in forwards;
+        }
+
+        @keyframes fadeIn {
             from {
-                opacity: 0%;
+                opacity: 0;
             }
             to {
-                opacity: 100%;
+                opacity: 1;
             }
         }
     </style>
@@ -55,10 +69,10 @@
     <main>
         <h1>Aerin's Website!</h1>
         <div class="maindiv">
-            <h1 class="h1main" style="color: #98CF97;"> Insert image of me here.</h1>
+            <h1 class="h1" style="color: #98CF97;"> Insert image of me here.</h1>
         </div>
         <div class="introdiv">
-            <h2 class="h2Intro">Hi! My name's Aerin :) Nice to meet you.</h2>
+            <h2 class="h2">Hi! My name's Aerin. Nice to meet you!</h2>
         </div>
     </main>
 </body>
