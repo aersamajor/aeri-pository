@@ -25,10 +25,27 @@
         border-radius: 10px;
         color: #BE90D4;
         width: 750px;
-        margin-bottom: 20px;
+        margin-bottom: 2px;
         padding: 20px;
         text-align: center;
         animation: fadeIn 2s ease-in forwards;
+    }
+
+    .links-container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .links {
+        background-color: white;
+        border-radius: 10px;
+        color: #BE90D4;
+        width: 150px;
+        padding: 1px;
+        text-align: center;
+        animation: fadeIn 3s ease-in forwards;
+        font-size: 10px;
     }
 
     .introdiv {
@@ -39,7 +56,7 @@
         margin-top: 20px;
         padding: 20px;
         text-align: center;
-        animation: fadeIn 3s ease-in forwards;
+        animation: fadeIn 4s ease-in forwards;
     }
 
     .picofme    {
