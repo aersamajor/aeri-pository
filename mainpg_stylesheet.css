@@ -34,14 +34,16 @@
     .links-container {
         display: flex;
         justify-content: center;
-        gap: 50px;
+        gap: 20px;
+        min-width: 350px;
+        flex-wrap: nowrap;
     }
 
     .links {
         background-color: white;
         border-radius: 10px;
         color: #BE90D4;
-        width: 150px;
+        width: 100px;
         padding: 1px;
         text-align: center;
         animation: fadeIn 3s ease-in forwards;
