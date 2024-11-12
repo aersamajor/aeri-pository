@@ -24,7 +24,7 @@
         background-color: white;
         border-radius: 10px;
         color: #BE90D4;
-        width: 750px;
+        width: 50%;
         margin-bottom: 2px;
         padding: 20px;
         text-align: center;
@@ -35,7 +35,7 @@
         display: flex;
         justify-content: center;
         gap: 20px;
-        min-width: 350px;
+        min-width: 40%;
         flex-wrap: nowrap;
     }
 
@@ -43,7 +43,7 @@
         background-color: white;
         border-radius: 10px;
         color: #BE90D4;
-        width: 100px;
+        width: 50%;
         padding: 1px;
         text-align: center;
         animation: fadeIn 3s ease-in forwards;
@@ -54,7 +54,7 @@
         background-color: white;
         border-radius: 10px;
         color: #BE90D4;
-        width: 750px;
+        width: 50%;
         margin-top: 20px;
         padding: 20px;
         text-align: center;
